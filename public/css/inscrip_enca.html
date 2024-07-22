@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="incrp_enca.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">gestion des stagaires</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="acceuil.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="a propos.html" class="nav-link">A propos</a></li>
+        <li class="nav-item"><a href="vous étes.html" class="nav-link">vous etes</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+      
+      </ul>
+    </header>
+</div>
+
+
+div class="box">
+        <form action="process_inscription.php" method="POST">
+            <h2>Inscription</h2>
+            <div class="inputbox">
+                <input type="text" name="nom_prenom" required="required">
+                <span>Nom et prénom</span>
+            </div>
+            <div class="inputbox">
+                <input type="email" name="email" required="required">
+                <span>E-mail</span>
+            </div>
+            <div class="inputbox">
+                <input type="tel" name="telephone" required="required">
+                <span>Téléphone</span>
+            </div>
+            <div class="inputbox">
+                <input type="text" name="poste" required="required">
+                <span>Poste</span>
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Enregistrer</button>
+                <button type="reset">Annuler</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
